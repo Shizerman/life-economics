@@ -21,6 +21,15 @@ export const resources: Resource[] = [
     actionLabel: "Open Tool",
   },
   {
+    id: "life-in-weeks",
+    title: "Life in Weeks Tool",
+    description:
+      "Visualize how many weeks you've lived and how many you may have left using actuarial estimates by gender and state.",
+    category: "Calculator",
+    href: "/tools/life-in-weeks",
+    actionLabel: "Open Tool",
+  },
+  {
     id: "quick-budget",
     title: "Quick Budget Spreadsheet",
     description:
