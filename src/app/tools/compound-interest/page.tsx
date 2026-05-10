@@ -1,3 +1,4 @@
+// App Router page for the compound interest interactive tool.
 import type { Metadata } from "next";
 import CompoundInterestCalculator from "./Calculator";
 
@@ -14,7 +15,7 @@ export default function CompoundInterestPage() {
         Compound Interest Calculator
       </h1>
       <p className="text-navy-700 mt-3 leading-relaxed">
-        Compound interest is what happens when your money earns returns...and
+        Compound interest is what happens when your money earns returns — and
         then those returns start earning returns too. It&apos;s the single most
         powerful force in long-term wealth building, and the earlier you start,
         the more dramatic the effect. Use this calculator to see how consistent
