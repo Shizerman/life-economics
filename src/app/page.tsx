@@ -4,7 +4,9 @@ import { resources } from "@/lib/resources";
 import ResourceCard from "@/components/ResourceCard";
 
 export default function HomePage() {
-  const featured = resources.slice(0, 3);
+  // Show every resource on the homepage so new tools are always visible
+  // (previously slice(0, 3) hid the 4th item and confused anyone scanning the grid).
+  const featured = resources;
 
   return (
     <>
@@ -56,7 +58,7 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
           {featured.map((r) => (
             <ResourceCard key={r.id} resource={r} />
           ))}
