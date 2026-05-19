@@ -20,6 +20,9 @@ export default function Footer() {
           <Link href="/tools/life-in-weeks" className="hover:text-white transition-colors">
             Life in Weeks
           </Link>
+          <Link href="/tools/mortgage-calculator" className="hover:text-white transition-colors">
+            Mortgage
+          </Link>
           <a
             href="https://lifeeconomics.substack.com"
             target="_blank"

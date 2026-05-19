@@ -30,6 +30,15 @@ export const resources: Resource[] = [
     actionLabel: "Open Tool",
   },
   {
+    id: "mortgage-calculator",
+    title: "Mortgage Payment Calculator",
+    description:
+      "Estimate monthly payments with principal, interest, taxes, insurance, and optional PMI — plus charts showing payoff over time.",
+    category: "Calculator",
+    href: "/tools/mortgage-calculator",
+    actionLabel: "Open Tool",
+  },
+  {
     id: "quick-budget",
     title: "Quick Budget Spreadsheet",
     description:
